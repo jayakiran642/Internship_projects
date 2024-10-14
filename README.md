@@ -33,3 +33,22 @@ The game tells the player whether their guess is:
 "Think less than this number" (guess is too high).
 The player keeps guessing until they get the correct number.
 Once the correct number is guessed, the game ends with a "Congrats! You won the game" message.
+
+#Snake Game
+This is a simple Snake Game implemented in Python using the Turtle graphics library. The player controls a snake that grows in length each time it eats food. The goal is to prevent the snake from colliding with itself or going out of bounds (screen wrapping is implemented for this version).
+
+Features
+Classic Snake game mechanics.
+Screen wrapping: the snake reappears on the opposite side of the screen when it goes off one edge.
+Responsive controls using the keyboard.
+Randomly placed food on the screen for the snake to eat and grow.
+Game resets upon self-collision.
+How to Play:
+Use the arrow keys to control the snake's direction:
+Up Arrow: Move up
+Down Arrow: Move down
+Left Arrow: Move left
+Right Arrow: Move right
+The snake grows in length when it eats food (red circles).
+The game continues indefinitely unless the snake runs into itself, at which point the game resets.
+
