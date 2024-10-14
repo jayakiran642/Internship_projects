@@ -1,4 +1,3 @@
-#internship_projects
 ##1.Rock, Paper, Scissors Game
 Description
 This is a simple Rock, Paper, Scissors game built in Python, where you compete against the computer. You have 3 chances to lose the game, and the goal is to score as many points as possible before using up all your chances.
