@@ -1,4 +1,5 @@
-#Rock, Paper, Scissors Game
+#internship_projects
+##1.Rock, Paper, Scissors Game
 Description
 This is a simple Rock, Paper, Scissors game built in Python, where you compete against the computer. You have 3 chances to lose the game, and the goal is to score as many points as possible before using up all your chances.
 
@@ -21,7 +22,7 @@ Run the script in your Python environment.
 Follow the on-screen instructions to input your choice (R, P, S, or Q).
 Keep track of your score and enjoy!
 
-#Number Guessing Game
+#2.Number Guessing Game
 Description
 This is a simple Number Guessing Game built in Python. The computer generates a random number between 1 and 100, and the player has to guess the number. After each guess, the game will provide feedback on whether the guess was too low or too high. The game continues until the player guesses the correct number.
 
@@ -34,7 +35,7 @@ The game tells the player whether their guess is:
 The player keeps guessing until they get the correct number.
 Once the correct number is guessed, the game ends with a "Congrats! You won the game" message.
 
-#Snake Game
+#3.Snake Game
 This is a simple Snake Game implemented in Python using the Turtle graphics library. The player controls a snake that grows in length each time it eats food. The goal is to prevent the snake from colliding with itself or going out of bounds (screen wrapping is implemented for this version).
 
 Features
@@ -51,4 +52,18 @@ Left Arrow: Move left
 Right Arrow: Move right
 The snake grows in length when it eats food (red circles).
 The game continues indefinitely unless the snake runs into itself, at which point the game resets.
+
+#4.Basic Calculator
+This is a basic calculator implemented in Python that allows users to perform addition, subtraction, multiplication, and division on any number of inputs. The user can enter as many numbers as they want, and the program will perform the selected operation.
+
+Features
+Addition: Sum all the numbers provided.
+Subtraction: Subtract all subsequent numbers from the first number.
+Multiplication: Multiply all the provided numbers.
+Division: Divide the first number by all subsequent numbers sequentially (with handling for division by zero).
+How to Use
+The program prompts the user to select an operation: Addition, Subtraction, Multiplication, Division, or Exit.
+The user is then asked to input numbers separated by spaces.
+The program will perform the chosen operation and display the result.
+The program runs continuously until the user selects the exit option.
 
